@@ -6,7 +6,7 @@
 
 - RTL design :
 
-![RTL_Desisgn.png](RTL_design.png)
+![RTL_Desisgn.png](RTL_Design.png)
 
 GIải thích sơ đồ RTL: 
 
@@ -91,4 +91,4 @@ endmodule
 
 - waveform
 
-![WaveForm.png](WAVEFORM.png)
+![WaveForm.png](WaveForm.png)
