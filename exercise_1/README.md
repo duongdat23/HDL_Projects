@@ -4,11 +4,12 @@
 
 Giải: 
 
-- code tối ưu đoạn mã: tối ưu hàm cho Y và Z ( XNOR)
-- Mã
+Code tối ưu đoạn mã: tối ưu hàm cho Y và Z ( XNOR)
+
+- Design
 
 ```verilog
-
+// Đoạn mã sau khi tối ưu
 module exercises1(
     input a,
     input b,
@@ -18,7 +19,7 @@ module exercises1(
     );
 
 assign y = a & ( b | ~b&c); 
-assign z = ~(a ^ b);
+assign z = ~(a ^ b); // tương đương với XNOR
 endmodule
 
 ```
